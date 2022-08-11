@@ -297,7 +297,7 @@
             </p>
           </div>
           <form class="contact-form" 
-            action="#" 
+            action="https://formspree.io/f/user" 
             method="POST"
           >
             <fieldset class="fieldset">
@@ -314,11 +314,11 @@
                 </li>
                 <li>
                   <input
-                    type="text"
+                    type="email"
                     name="email"
                     id="email"
                     placeholder="Email address"
-                   
+                   required
                   />
                 </li>
                 
@@ -328,12 +328,13 @@
                     class="textarea"
                     cols="30"
                     rows="10"
-                    maxlength="50"
+                    maxlength="500"
                     placeholder="Enter text here"
+                    required
                   ></textarea>
                 </li>
                 <li>
-                  <button type="button" class="submit-contacte" id="btn-submit-forme">
+                  <button type="submit" class="submit-contacte" id="btn-submit-forme">
                     Get in touch
                   </button>
                 </li>
